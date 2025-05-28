@@ -2,15 +2,19 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from 'next/navigation';
+import clsx from 'clsx';
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <nav className="bg-white shadow-md">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a
-          href="https://flowbite.com/"
+        <Link
+          href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <Image
@@ -22,7 +26,7 @@ export default function Navbar() {
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-black">
             Dhunki Fashion
           </span>
-        </a>
+        </Link>
         <button
           onClick={() => setMenuOpen((prev) => !prev)}
           type="button"
@@ -54,21 +58,72 @@ export default function Navbar() {
           id="navbar-default"
         >
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
-            {["Home", "About", "Services", "Pricing", "Contact"].map((label, idx) => (
-              <li key={label}>
-                <a
-                  href="#"
-                  className={`block py-2 px-3 rounded-sm ${
-                    idx === 0
-                      ? "text-white bg-blue-700 md:bg-transparent md:text-blue-700 md:p-0"
-                      : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
-                  }`}
-                  aria-current={idx === 0 ? "page" : undefined}
-                >
-                  {label}
-                </a>
-              </li>
-            ))}
+            <li>
+              <Link
+                href="/"
+                className={clsx("block py-2 px-3 rounded-sm md:p-0",
+                  {
+                    "text-white bg-blue-700 md:bg-transparent md:text-blue-700":pathname === '/',
+                    "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700":pathname !== '/'
+                  }
+                )}
+                aria-current="page"
+              >
+                New Arrivals
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/"
+                className={clsx("block py-2 px-3 rounded-sm md:p-0",
+                  {
+                    "text-white bg-blue-700 md:bg-transparent md:text-blue-700":pathname === '/about',
+                    "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700":pathname !== '/about'
+                  }
+                )}
+              >
+                Kurtis
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/"
+                className={clsx("block py-2 px-3 rounded-sm md:p-0",
+                  {
+                    "text-white bg-blue-700 md:bg-transparent md:text-blue-700":pathname === '/services',
+                    "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700":pathname !== '/services'
+                  }
+                )}
+              >
+                T-shirts & Tops
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/"
+                className={clsx("block py-2 px-3 rounded-sm md:p-0",
+                  {
+                    "text-white bg-blue-700 md:bg-transparent md:text-blue-700":pathname === '/pricing',
+                    "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700":pathname !== '/pricing'
+                  }
+                )}
+              >
+                Western Wear
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/contact"
+                className={clsx("block py-2 px-3 rounded-sm md:p-0",
+                  {
+                    "text-white bg-blue-700 md:bg-transparent md:text-blue-700":pathname === '/contact',
+                    "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700":pathname !== '/contact'
+                  }
+                )}
+              >
+                Contact
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
