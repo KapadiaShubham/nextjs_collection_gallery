@@ -3,17 +3,10 @@
 
 import ProductCard from './ProductCard';
 
-// const products = [
-//   '/images/dress1.jpg',
-//   '/images/dress2.jpg',
-//   '/images/dress3.jpg',
-//   '/images/dress4.jpg',
-//   '/images/dress5.jpg',
-//   '/images/dress6.jpg',
-//   '/images/dress7.jpg',
-//   '/images/dress8.jpg',
-//   '/images/dress9.jpg',
-// ];
+type ProductGalleryProps = {
+  title: string;
+};
+
 const products = [
   'https://res.cloudinary.com/drtnydjni/image/upload/v1748404526/dress6_swrkzw.jpg',
   "https://res.cloudinary.com/drtnydjni/image/upload/v1748404525/dress2_vqtf4y.jpg",
@@ -26,11 +19,11 @@ const products = [
   // "https://res.cloudinary.com/drtnydjni/image/upload/v1748404493/dress9_mayjbp.jpg",
 ]
 
-export default function ProductGallery() {
+export default function ProductGallery({ title }: ProductGalleryProps) {
   return (
     <section className="py-12 px-4">
       <div className="text-center mb-8">
-        <h2 className="text-3xl font-bold">Our Dress Collection</h2>
+        <h2 className="text-3xl font-bold">{title}</h2>
         <p className="text-gray-600 mt-2">Find your perfect outfit from our elegant styles</p>
       </div>
 

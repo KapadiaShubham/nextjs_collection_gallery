@@ -1,9 +1,9 @@
-import ProductGallery from "./ProductGallery";
+import ProductGallery from "./components/ProductGallery";
 
 export default function Home() {
   return (
     <>
-    <ProductGallery />
+    <ProductGallery title='New Arrivals'/>
     </>
   );
 }
