@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Dhunki Fashion",
-  description: "Manufacturer of Ladies Wear",
+  description: "Manufacturer of Ladies Dress, Western Wear",
 };
 
 export default function RootLayout({
