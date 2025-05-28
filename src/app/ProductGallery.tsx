@@ -3,17 +3,28 @@
 
 import ProductCard from './ProductCard';
 
+// const products = [
+//   '/images/dress1.jpg',
+//   '/images/dress2.jpg',
+//   '/images/dress3.jpg',
+//   '/images/dress4.jpg',
+//   '/images/dress5.jpg',
+//   '/images/dress6.jpg',
+//   '/images/dress7.jpg',
+//   '/images/dress8.jpg',
+//   '/images/dress9.jpg',
+// ];
 const products = [
-  '/images/dress1.jpg',
-  '/images/dress2.jpg',
-  '/images/dress3.jpg',
-  '/images/dress4.jpg',
-  '/images/dress5.jpg',
-  '/images/dress6.jpg',
-  '/images/dress7.jpg',
-  '/images/dress8.jpg',
-  '/images/dress9.jpg',
-];
+  'https://res.cloudinary.com/drtnydjni/image/upload/v1748404526/dress6_swrkzw.jpg',
+  "https://res.cloudinary.com/drtnydjni/image/upload/v1748404525/dress2_vqtf4y.jpg",
+  "https://res.cloudinary.com/drtnydjni/image/upload/v1748404525/dress3_efose6.jpg",
+  "https://res.cloudinary.com/drtnydjni/image/upload/v1748404520/dress5_old2q6.jpg",
+  "https://res.cloudinary.com/drtnydjni/image/upload/v1748404520/dress7_ecsjjf.jpg",
+  "https://res.cloudinary.com/drtnydjni/image/upload/v1748404504/dress4_qeu6p0.jpg",
+  "https://res.cloudinary.com/drtnydjni/image/upload/v1748404502/dress1_zu60oa.jpg",
+  "https://res.cloudinary.com/drtnydjni/image/upload/v1748404498/dress8_xbistp.jpg",
+  "https://res.cloudinary.com/drtnydjni/image/upload/v1748404493/dress9_mayjbp.jpg",
+]
 
 export default function ProductGallery() {
   return (

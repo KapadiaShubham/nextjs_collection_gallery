@@ -1,4 +1,5 @@
-import Image from "next/image";
+// import Image from "next/image";
+import { CldImage } from "next-cloudinary";
 
 interface ProductCardProps {
   src: string;
@@ -31,12 +32,12 @@ export default function ProductCard({ src, idx }: ProductCardProps) {
       />
     </div> */}
     <div className="flex items-center aspect-[70/100] justify-center overflow-hidden transition-transform duration-300 hover:scale-105">
-      <Image
+      <CldImage
         src={src}
         alt={`Dress ${idx + 1}`}
         width={200}
         height={400}
-        className="rounded-lg w-full object-cover h-full"
+        className="rounded-lg w-fit object-cover h-full"
       />
     </div>
   </>
