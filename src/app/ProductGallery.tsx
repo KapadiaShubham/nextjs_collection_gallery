@@ -23,7 +23,7 @@ const products = [
   "https://res.cloudinary.com/drtnydjni/image/upload/v1748404504/dress4_qeu6p0.jpg",
   "https://res.cloudinary.com/drtnydjni/image/upload/v1748404502/dress1_zu60oa.jpg",
   "https://res.cloudinary.com/drtnydjni/image/upload/v1748404498/dress8_xbistp.jpg",
-  "https://res.cloudinary.com/drtnydjni/image/upload/v1748404493/dress9_mayjbp.jpg",
+  // "https://res.cloudinary.com/drtnydjni/image/upload/v1748404493/dress9_mayjbp.jpg",
 ]
 
 export default function ProductGallery() {
