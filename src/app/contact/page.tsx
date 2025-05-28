@@ -29,7 +29,7 @@ const contactInfo = {
   //   username: 'linkedin.com/in/myprofile',
   //   link: 'https://linkedin.com/in/myprofile',
   // },
-  location: 'Gujarat, India',
+  location: 'Surat, Gujarat',
 };
 
 export default function ContactPage() {
