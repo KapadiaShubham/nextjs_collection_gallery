@@ -9,6 +9,7 @@ import clsx from 'clsx';
 // ✅ Centralized nav link data
 const NAV_LINKS = [
   { href: "/", label: "New Arrivals" },
+  { href: "/long-dress", label: "Long Dress" },
   { href: "/kurtis", label: "Kurtis" },
   { href: "/tshirts-tops", label: "T-shirts & Tops" },
   { href: "/western-wear", label: "Western Wear" },
@@ -68,7 +69,11 @@ export default function Navbar() {
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
             {NAV_LINKS.map(({ href, label }) => (
               <li key={href}>
-                <Link href={href} className={getLinkClasses(pathname, href)}>
+                <Link
+                  href={href}
+                  className={getLinkClasses(pathname, href)}
+                  onClick={() => setMenuOpen(false)}
+                >
                   {label}
                 </Link>
               </li>
