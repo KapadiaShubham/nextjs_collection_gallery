@@ -1,0 +1,310 @@
+{
+  "Long Dress": [
+    {
+      "SKU": "Dhunki 4121",
+      "Fabric": "Premium solid Georgette, inner Lycra",
+      "Speciality": "Attractive designer dress, stylish sleeve",
+      "Colors": 4,
+      "Price": "₹399×4=₹1596",
+      "Sizes": [
+        "S(36)",
+        "M(38)",
+        "L(40)",
+        "XL(42)"
+      ],
+      "Sleeve Type": "Short designer",
+      "Catalogue": "4 pcs",
+      "GST 5%": "Extra",
+      "Single Available": "No"
+    },
+    {
+      "SKU": "Dhunki 4241",
+      "Fabric": "Premium Georgette, inner soft Lycra",
+      "Speciality": "Attractive self-design sleeve, designer neck/front",
+      "Colors": 3,
+      "Price": "₹550×3=₹1649",
+      "Sizes": [
+        "S(36)",
+        "M(38)",
+        "L(40)",
+        "XL(42)"
+      ],
+      "Sleeve Type": "1/3 designer",
+      "Catalogue": "3 pcs",
+      "GST 5%": "Extra",
+      "Single Available": "No"
+    },
+    {
+      "SKU": "Dhunki 4261",
+      "Fabric": "Premium Georgette",
+      "Speciality": "Designer neck, sleeve, front with soft lining",
+      "Colors": 4,
+      "Price": "₹385×4=₹1539",
+      "Sizes": [
+        "S(36)",
+        "M(38)",
+        "L(40)",
+        "XL(42)"
+      ],
+      "Sleeve Type": "Short designer",
+      "Catalogue": "4 pcs",
+      "GST 5%": "Extra",
+      "Single Available": "No"
+    },
+    {
+      "SKU": "Dhunki 4271",
+      "Fabric": "Premium Georgette",
+      "Speciality": "Designer neck and front with soft lining",
+      "Colors": 4,
+      "Price": "₹368×4=₹1472",
+      "Sizes": [
+        "S(36)",
+        "M(38)",
+        "L(40)",
+        "XL(42)"
+      ],
+      "Sleeve Type": "1/3 sleeve",
+      "Catalogue": "4 pcs",
+      "GST 5%": "Extra",
+      "Single Available": "No"
+    },
+    {
+      "SKU": "Dhunki 5461",
+      "Fabric": "Premium printed Georgette",
+      "Speciality": "Designer neck, sleeve, front with soft lining",
+      "Colors": 3,
+      "Price": "₹440×3=₹1320",
+      "Sizes": [
+        "S(36)",
+        "M(38)",
+        "L(40)",
+        "XL(42)"
+      ],
+      "Sleeve Type": "Short designer",
+      "Catalogue": "3 pcs",
+      "GST 5%": "Extra",
+      "Single Available": "No"
+    },
+    {
+      "SKU": "Dhunki 5481",
+      "Fabric": "Premium printed Georgette, inner Lycra",
+      "Speciality": "Attractive print with designer sleeve and belt",
+      "Colors": 4,
+      "Price": "₹400×3=₹1199",
+      "Sizes": [
+        "S(36)",
+        "M(38)",
+        "L(40)",
+        "XL(42)"
+      ],
+      "Sleeve Type": "Cap sleeve",
+      "Catalogue": "3 pcs",
+      "GST 5%": "Extra",
+      "Single Available": "No"
+    },
+    {
+      "SKU": "Dhunki 5491",
+      "Fabric": "Premium printed Georgette",
+      "Speciality": "Designer neck, sleeve, front with soft lining",
+      "Colors": 4,
+      "Price": "₹560×4=₹2240",
+      "Sizes": [
+        "S(36)",
+        "M(38)",
+        "L(40)",
+        "XL(42)"
+      ],
+      "Sleeve Type": "Designer full",
+      "Catalogue": "4 pcs",
+      "GST 5%": "Extra",
+      "Single Available": "No"
+    },
+    {
+      "SKU": "Dhunki 5621",
+      "Fabric": "Premium Ajanta",
+      "Speciality": "Designer dress with attractive print",
+      "Colors": 3,
+      "Price": "₹490×3=₹1470",
+      "Sizes": [
+        "S(34)",
+        "M(36)",
+        "L(38)",
+        "XL(40)"
+      ],
+      "Sleeve Type": "Sleeveless",
+      "Catalogue": "3 pcs",
+      "GST 5%": "Extra",
+      "Single Available": "No"
+    },
+    {
+      "SKU": "Dhunki 6061",
+      "Fabric": "Premium Ajanta",
+      "Speciality": "V neck designer western dress",
+      "Colors": 2,
+      "Price": "₹359×4=₹1436",
+      "Sizes": [
+        "S(34)",
+        "M(36)",
+        "L(38)",
+        "XL(40)"
+      ],
+      "Sleeve Type": "Sleeveless",
+      "Catalogue": "4 pcs",
+      "GST 5%": "Extra",
+      "Single Available": "No"
+    },
+    {
+      "SKU": "Dhunki 6071",
+      "Fabric": "Premium Ajanta",
+      "Speciality": "Designer maxi gown",
+      "Colors": 2,
+      "Price": "₹499×4=₹1996",
+      "Sizes": [
+        "S(34)",
+        "M(36)",
+        "L(38)",
+        "XL(40)"
+      ],
+      "Sleeve Type": "Full sleeve",
+      "Catalogue": "4 pcs",
+      "GST 5%": "Extra",
+      "Single Available": "No"
+    },
+    {
+      "SKU": "Dhunki 8031",
+      "Fabric": "Premium Ajanta",
+      "Speciality": "Round neck designer western dress with belt & frill",
+      "Colors": 4,
+      "Price": "₹439×4=₹1756",
+      "Sizes": [
+        "S(34)",
+        "M(36)",
+        "L(38)",
+        "XL(40)"
+      ],
+      "Sleeve Type": "Full sleeve",
+      "Catalogue": "4 pcs",
+      "GST 5%": "Extra",
+      "Single Available": "No"
+    },
+    {
+      "SKU": "Dhunki 8061",
+      "Fabric": "Premium Ajanta",
+      "Speciality": "Diamond shape neck with pleated design",
+      "Colors": 4,
+      "Price": "₹372×4=₹1488",
+      "Sizes": [
+        "S(34)",
+        "M(36)",
+        "L(38)",
+        "XL(40)"
+      ],
+      "Sleeve Type": "3/4 sleeve",
+      "Catalogue": "4 pcs",
+      "GST 5%": "Extra",
+      "Single Available": "No"
+    },
+    {
+      "SKU": "Dhunki 8111",
+      "Fabric": "Premium Georgette",
+      "Speciality": "Designer neck, sleeve, waist elastic with soft lining",
+      "Colors": 4,
+      "Price": "₹480×4=₹1920",
+      "Sizes": [
+        "S(36)",
+        "M(38)",
+        "L(40)",
+        "XL(42)"
+      ],
+      "Sleeve Type": "Designer",
+      "Catalogue": "4 pcs",
+      "GST 5%": "Extra",
+      "Single Available": "No"
+    },
+    {
+      "SKU": "Dhunki 8301",
+      "Fabric": "Premium Ruby slub",
+      "Speciality": "Designer neck, front, attractive sleeve with belt",
+      "Colors": 1,
+      "Price": "₹480×4=₹1920",
+      "Sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "Sleeve Type": "Designer cap",
+      "Catalogue": "4 pcs",
+      "GST 5%": "Extra",
+      "Single Available": "No"
+    },
+    {
+      "SKU": "Dhunki 8321",
+      "Fabric": "Premium chiffon Georgette (Swiss dot)",
+      "Speciality": "Designer neck, sleeve, front with soft lining",
+      "Colors": 3,
+      "Price": "₹560×3=₹1680",
+      "Sizes": [
+        "S(36)",
+        "M(38)",
+        "L(40)",
+        "XL(42)"
+      ],
+      "Sleeve Type": "Designer full",
+      "Catalogue": "3 pcs",
+      "GST 5%": "Extra",
+      "Single Available": "No"
+    },
+    {
+      "SKU": "Dhunki 8561",
+      "Fabric": "Premium Vista fabric",
+      "Speciality": "Designer front and sleeve",
+      "Colors": 4,
+      "Price": "₹525×4=₹2100",
+      "Sizes": [
+        "XS(34)",
+        "S(36)",
+        "M(38)",
+        "L(40)"
+      ],
+      "Sleeve Type": "Designer full",
+      "Catalogue": "4 pcs",
+      "GST 5%": "Extra",
+      "Single Available": "No"
+    },
+    {
+      "SKU": "Dhunki 8771",
+      "Fabric": "Premium Georgette with soft lining",
+      "Speciality": "Exclusive designer western dress",
+      "Colors": 3,
+      "Price": "₹480×3=₹1440",
+      "Sizes": [
+        "S(36)",
+        "M(38)",
+        "L(40)",
+        "XL(42)"
+      ],
+      "Sleeve Type": "Designer full",
+      "Catalogue": "3 pcs",
+      "GST 5%": "Extra",
+      "Single Available": "No"
+    },
+    {
+      "SKU": "Dhunki PBH 125",
+      "Fabric": "Premium Ajanta",
+      "Speciality": "Attractive floral printed skater dress",
+      "Colors": 3,
+      "Price": "₹345×3=₹1035",
+      "Sizes": [
+        "S(34)",
+        "M(36)",
+        "L(38)",
+        "XL(40)"
+      ],
+      "Sleeve Type": "Short",
+      "Catalogue": "3 pcs",
+      "GST 5%": "Extra",
+      "Single Available": "No"
+    }
+  ]
+}
