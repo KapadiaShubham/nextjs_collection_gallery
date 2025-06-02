@@ -3,8 +3,24 @@
     {
       "SKU": "Dhunki 4121",
       "Fabric": "Premium solid Georgette, inner Lycra",
-      "Speciality": "Attractive designer dress, stylish sleeve",
+      "Specialty": "Attractive designer dress, stylish sleeve",
       "Colors": 4,
+      "Images": [
+        {
+          "color":"Maroon",
+          "image_urls":[
+            "",
+            ""
+          ]
+        },
+        {
+          "color":"",
+          "image_urls":[
+            "",
+            ""
+          ]
+        }
+      ],
       "Price": "₹399×4=₹1596",
       "Sizes": [
         "S(36)",

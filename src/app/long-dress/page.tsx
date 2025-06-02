@@ -1,9 +1,10 @@
 import ProductGallery from "../components/ProductGallery";
+import allProducts from '../data/temp_data.json';
 
-export default function WesternWear() {
+export default function LongDress() {
   return (
     <>
-    <ProductGallery title='Western Wear'/>
+      <ProductGallery title='Long Dress' products={allProducts['Long Dress']}/>
     </>
   );
 }

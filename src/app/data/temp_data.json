@@ -1,0 +1,37 @@
+{
+  "Long Dress": [
+    {
+      "SKU": "Dhunki 4121",
+      "Fabric": "Premium solid Georgette, inner Lycra",
+      "Specialty": "Attractive designer dress, stylish sleeve",
+      "Colors": 4,
+      "Images": [
+        {
+          "color": "Maroon",
+          "image_urls": [
+            "https://res.cloudinary.com/drtnydjni/image/upload/v1748404526/dress6_swrkzw.jpg",
+            ""
+          ]
+        },
+        {
+          "color": "Red",
+          "image_urls": [
+            "https://res.cloudinary.com/drtnydjni/image/upload/v1748404526/dress6_swrkzw.jpg",
+            ""
+          ]
+        }
+      ],
+      "Price": "₹399×4=₹1596",
+      "Sizes": [
+        "S(36)",
+        "M(38)",
+        "L(40)",
+        "XL(42)"
+      ],
+      "Sleeve Type": "Short designer",
+      "Catalogue": "4 pcs",
+      "GST 5%": "Extra",
+      "Single Available": "No"
+    }
+  ]
+}
