@@ -1,5 +1,6 @@
 // import Image from "next/image";
 import { CldImage } from "next-cloudinary";
+// import Image from "next/image";
 
 type Product = {
   SKU: string;
@@ -32,11 +33,18 @@ export default function ProductCard({ product }: ProductCardProps) {
           height={400}
           className="w-full h-full object-cover"
         />
+        {/* <Image
+          src={product.image_urls[0]}
+          alt={`${product.SKU} - ${product.colorName}`}
+          width={200}
+          height={400}
+          className="w-full h-full object-cover"
+        /> */}
       </div>
       <div className="p-4">
-        <h2 className="text-gray-900 font-semibold text-lg mb-2">Product Name</h2>
-        <p className="text-indigo-600 font-bold text-xl mb-4">$99.99</p>
-        <h3 className="text-gray-900 mb-2">Color:__, Fabric:__</h3>
+        <h2 className="text-gray-900 font-semibold text-lg mb-2">{product.SKU} - {product.colorName}</h2>
+        {/* <p className="text-indigo-600 font-bold text-xl mb-4">{product.Price}</p> */}
+        {/* <h3 className="text-gray-900 mb-2">{product.colorName}</h3> */}
         {/* <button
           className="w-full bg-indigo-600 text-white py-2 rounded-md hover:bg-indigo-700 transition-colors"
         >

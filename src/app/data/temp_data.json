@@ -7,17 +7,27 @@
       "Colors": 4,
       "Images": [
         {
-          "color": "Maroon",
+          "color": "Black",
           "image_urls": [
-            "https://res.cloudinary.com/drtnydjni/image/upload/v1748404526/dress6_swrkzw.jpg",
-            ""
+            "https://res.cloudinary.com/drtnydjni/image/upload/v1748845353/Dhunki-4121-Black_nnmtcq.jpg"
           ]
         },
         {
-          "color": "Red",
+          "color": "Grey",
           "image_urls": [
-            "https://res.cloudinary.com/drtnydjni/image/upload/v1748404526/dress6_swrkzw.jpg",
-            ""
+            "https://res.cloudinary.com/drtnydjni/image/upload/v1748845354/Dhunki-4121-Grey_hrv9zm.jpg"
+          ]
+        },
+        {
+          "color": "Morpich",
+          "image_urls": [
+            "https://res.cloudinary.com/drtnydjni/image/upload/v1748845354/Dhunki-4121-Morpich_db8ly8.jpg"
+          ]
+        },
+        {
+          "color": "Pink",
+          "image_urls": [
+            "https://res.cloudinary.com/drtnydjni/image/upload/v1748845354/Dhunki-4121-Pink_xtkf3b.jpg"
           ]
         }
       ],
