@@ -24,14 +24,14 @@ type ProductCardProps = {
 
 export default function ProductCard({ product }: ProductCardProps) {
   return (<>
-    <div className="max-w-xs bg-white rounded-lg shadow-md overflow-hidden transition-shadow duration-300 hover:shadow-[0_0_15px_rgba(99,102,241,0.5)] cursor-pointer">
-      <div className="w-full aspect-[70/104]">
+    <div className="group max-w-xs bg-white shadow-md overflow-hidden transition-shadow duration-300 hover:shadow-[0_0_15px_rgba(99,102,241,0.5)] cursor-pointer">
+      <div className="w-full aspect-[70/104] overflow-hidden">
         <CldImage
           src={product.image_urls[0]}
           alt={`${product.SKU} - ${product.colorName}`}
           width={200}
           height={400}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-103"
         />
         {/* <Image
           src={product.image_urls[0]}
@@ -41,8 +41,10 @@ export default function ProductCard({ product }: ProductCardProps) {
           className="w-full h-full object-cover"
         /> */}
       </div>
-      <div className="p-4">
-        <h2 className="text-gray-900 font-semibold text-lg mb-2">{product.SKU} - {product.colorName}</h2>
+      <div className="py-2 px-4">
+        <span className="text-neutral-800 font-medium text-base sm:text-lg tracking-wide">
+          {product.SKU} - {product.colorName}
+        </span>
         {/* <p className="text-indigo-600 font-bold text-xl mb-4">{product.Price}</p> */}
         {/* <h3 className="text-gray-900 mb-2">{product.colorName}</h3> */}
         {/* <button

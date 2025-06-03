@@ -71,7 +71,7 @@ export default function ProductGallery({ title, products }: ProductGalleryProps)
         <p className="text-gray-600 mt-2">Find your perfect outfit from our elegant styles</p>
       </div>
 
-      <div className='p-2 md:p-4 grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-8'>
+      <div className='p-1 md:p-3 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6'>
         {productVariants.map((product, idx) => (
           <ProductCard key={idx} product={product} />
         ))}
