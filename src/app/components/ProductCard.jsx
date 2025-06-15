@@ -2,27 +2,7 @@
 import { CldImage } from "next-cloudinary";
 // import Image from "next/image";
 
-type Product = {
-  SKU: string;
-  Fabric: string;
-  Specialty: string;
-  Colors: number;
-  // Images: ProductImages[];
-  Price: string;
-  Sizes: string[];
-  "Sleeve Type": string;
-  Catalogue: string;
-  "GST 5%": string;
-  "Single Available": string;
-  colorName: string;
-  image_urls: string[];
-};
-
-type ProductCardProps = {
-  product: Product;
-}
-
-export default function ProductCard({ product }: ProductCardProps) {
+export default function ProductCard({ product }) {
   return (<>
     <div className="group max-w-xs bg-white shadow-md overflow-hidden transition-shadow duration-300 hover:shadow-[0_0_15px_rgba(99,102,241,0.5)] cursor-pointer">
       <div className="w-full aspect-[70/104] overflow-hidden">

@@ -1,36 +1,6 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 'use client';
 
 import ProductCard from './ProductCard';
-
-type ProductImages = {
-  color: string;
-  image_urls: string[];
-};
-
-type Product = {
-  SKU: string;
-  Fabric: string;
-  Specialty: string;
-  Colors: number;
-  Images: ProductImages[];
-  Price: string;
-  Sizes: string[];
-  "Sleeve Type": string;
-  Catalogue: string;
-  "GST 5%": string;
-  "Single Available": string;
-};
-
-type ProductCategoryData = {
-  [category: string]: Product[];
-};
-
-type ProductGalleryProps = {
-  title: string;
-  products: Product[];
-};
-
 
 // const products = [
 //   'https://res.cloudinary.com/drtnydjni/image/upload/v1748404526/dress6_swrkzw.jpg',
@@ -44,7 +14,7 @@ type ProductGalleryProps = {
 //   // "https://res.cloudinary.com/drtnydjni/image/upload/v1748404493/dress9_mayjbp.jpg",
 // ]
 
-export default function ProductGallery({ title, products }: ProductGalleryProps) {
+export default function ProductGallery({ title, products }) {
 
   const productVariants = products.flatMap((product) =>
     product.Images.map((image) => ({
