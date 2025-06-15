@@ -14,25 +14,10 @@ import ProductCard from './ProductCard';
 //   // "https://res.cloudinary.com/drtnydjni/image/upload/v1748404493/dress9_mayjbp.jpg",
 // ]
 
-export default function ProductGallery({ title, products }) {
+      
 
-  const productVariants = products.flatMap((product) =>
-    product.Images.map((image) => ({
-      // ...product,
-      SKU:product.SKU,
-      Fabric:product.Fabric,
-      Specialty:product.Specialty,
-      Colors:product.Colors,
-      Price:product.Price,
-      Sizes:product.Sizes,
-      "Sleeve Type":product["Sleeve Type"],
-      Catalogue:product.Catalogue,
-      "GST 5%":product["GST 5%"],
-      "Single Available":product["Single Available"],
-      colorName: image.color,
-      image_urls: image.image_urls
-    }))
-  );
+
+export default function ProductGallery({ title, products }) {
 
   return (
     <section className="py-12 px-4">
@@ -42,7 +27,7 @@ export default function ProductGallery({ title, products }) {
       </div>
 
       <div className='p-1 md:p-3 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6'>
-        {productVariants.map((product, idx) => (
+        {products.map((product, idx) => (
           <ProductCard key={idx} product={product} />
         ))}
       </div>

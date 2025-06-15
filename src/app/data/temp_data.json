@@ -1,589 +1,589 @@
 {
-  "Long Dress": [
+  "longDress": [
     {
-      "SKU": "Dhunki 4121",
-      "Fabric": "Premium solid Georgette, inner Lycra",
-      "Specialty": "Attractive designer dress, stylish sleeve",
-      "Colors": 4,
-      "Images": [
+      "sku": "Dhunki 4121",
+      "fabric": "Premium solid Georgette, inner Lycra",
+      "specialty": "Attractive designer dress, stylish sleeve",
+      "colors": 4,
+      "images": [
         {
           "color": "Black",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748845353/Dhunki-4121-Black_nnmtcq.jpg"
           ]
         },
         {
           "color": "Grey",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748845354/Dhunki-4121-Grey_hrv9zm.jpg"
           ]
         },
         {
           "color": "Morpich",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748845354/Dhunki-4121-Morpich_db8ly8.jpg"
           ]
         },
         {
           "color": "Pink",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748845354/Dhunki-4121-Pink_xtkf3b.jpg"
           ]
         }
       ],
-      "Price": "₹399×4=₹1596",
-      "Sizes": [
+      "price": "₹399×4=₹1596",
+      "sizes": [
         "S(36)",
         "M(38)",
         "L(40)",
         "XL(42)"
       ],
-      "Sleeve Type": "Short designer",
-      "Catalogue": "4 pcs",
-      "GST 5%": "Extra",
-      "Single Available": "No"
+      "sleeveType": "Short designer",
+      "catalogue": "4 pcs",
+      "gst5Percent": "Extra",
+      "singleAvailable": "No"
     },
     {
-      "SKU": "Dhunki 4241",
-      "Fabric": "Premium Georgette, inner soft Lycra",
-      "Specialty": "Attractive self-design sleeve, designer neck/front",
-      "Colors": 3,
-      "Images": [
+      "sku": "Dhunki 4241",
+      "fabric": "Premium Georgette, inner soft Lycra",
+      "specialty": "Attractive self-design sleeve, designer neck/front",
+      "colors": 3,
+      "images": [
         {
           "color": "Grey",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748876521/Grey_fq7mel.jpg"
           ]
         },
         {
           "color": "Morpich",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748876521/Morpich_eop9oc.jpg"
           ]
         },
         {
           "color": "Black",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748876520/Black_tjbw3a.jpg"
           ]
         },
         {
           "color": "Pink",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748876517/Pink_kyu5v9.jpg"
           ]
         }
       ],
-      "Price": "₹550×3=₹1649",
-      "Sizes": [
+      "price": "₹550×3=₹1649",
+      "sizes": [
         "S(36)",
         "M(38)",
         "L(40)",
         "XL(42)"
       ],
-      "Sleeve Type": "1/3 designer",
-      "Catalogue": "3 pcs",
-      "GST 5%": "Extra",
-      "Single Available": "No"
+      "sleeveType": "1/3 designer",
+      "catalogue": "3 pcs",
+      "gst5Percent": "Extra",
+      "singleAvailable": "No"
     },
     {
-      "SKU": "Dhunki 4261",
-      "Fabric": "Premium Georgette",
-      "Specialty": "Designer neck, sleeve, front with soft lining",
-      "Colors": 4,
-      "Images": [
+      "sku": "Dhunki 4261",
+      "fabric": "Premium Georgette",
+      "specialty": "Designer neck, sleeve, front with soft lining",
+      "colors": 4,
+      "images": [
         {
           "color": "Pink",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748876653/Pink_tr9mnk.jpg"
           ]
         },
         {
           "color": "Black",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748876651/Black_kdjorc.jpg"
           ]
         },
         {
           "color": "Grey",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748876651/Grey_e7smnt.jpg"
           ]
         },
         {
           "color": "Morpich",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748876650/Morpich_uvxlnf.jpg"
           ]
         }
       ],
-      "Price": "₹385×4=₹1539",
-      "Sizes": [
+      "price": "₹385×4=₹1539",
+      "sizes": [
         "S(36)",
         "M(38)",
         "L(40)",
         "XL(42)"
       ],
-      "Sleeve Type": "Short designer",
-      "Catalogue": "4 pcs",
-      "GST 5%": "Extra",
-      "Single Available": "No"
+      "sleeveType": "Short designer",
+      "catalogue": "4 pcs",
+      "gst5Percent": "Extra",
+      "singleAvailable": "No"
     },
     {
-      "SKU": "Dhunki 4271",
-      "Fabric": "Premium Georgette",
-      "Specialty": "Designer neck and front with soft lining",
-      "Colors": 4,
-      "Images": [
+      "sku": "Dhunki 4271",
+      "fabric": "Premium Georgette",
+      "specialty": "Designer neck and front with soft lining",
+      "colors": 4,
+      "images": [
         {
           "color": "Maroon",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748876801/Maroon_ttgba2.jpg"
           ]
         },
         {
           "color": "Grey",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748876800/Grey_yjymrr.jpg"
           ]
         },
         {
           "color": "Pista",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748876799/Pista_feahky.jpg"
           ]
         },
         {
           "color": "Black",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748876798/Black_hfxp9r.jpg"
           ]
         }
       ],
-      "Price": "₹368×4=₹1472",
-      "Sizes": [
+      "price": "₹368×4=₹1472",
+      "sizes": [
         "S(36)",
         "M(38)",
         "L(40)",
         "XL(42)"
       ],
-      "Sleeve Type": "1/3 sleeve",
-      "Catalogue": "4 pcs",
-      "GST 5%": "Extra",
-      "Single Available": "No"
+      "sleeveType": "1/3 sleeve",
+      "catalogue": "4 pcs",
+      "gst5Percent": "Extra",
+      "singleAvailable": "No"
     },
     {
-      "SKU": "Dhunki 5481",
-      "Fabric": "Premium printed Georgette, inner Lycra",
-      "Specialty": "Attractive print with designer sleeve and belt",
-      "Colors": 4,
-      "Images": [
+      "sku": "Dhunki 5481",
+      "fabric": "Premium printed Georgette, inner Lycra",
+      "specialty": "Attractive print with designer sleeve and belt",
+      "colors": 4,
+      "images": [
         {
           "color": "White",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748876926/White_A_sib7js.jpg"
           ]
         },
         {
           "color": "Sky",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748876922/Sky_A_viei4a.jpg"
           ]
         },
         {
           "color": "Green",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748876915/Green_A_smqsfj.jpg"
           ]
         },
         {
           "color": "Pink",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748876914/Pink_A_mgn1qb.jpg"
           ]
         }
       ],
-      "Price": "₹400×3=₹1199",
-      "Sizes": [
+      "price": "₹400×3=₹1199",
+      "sizes": [
         "S(36)",
         "M(38)",
         "L(40)",
         "XL(42)"
       ],
-      "Sleeve Type": "Cap sleeve",
-      "Catalogue": "3 pcs",
-      "GST 5%": "Extra",
-      "Single Available": "No"
+      "sleeveType": "Cap sleeve",
+      "catalogue": "3 pcs",
+      "gst5Percent": "Extra",
+      "singleAvailable": "No"
     },
     {
-      "SKU": "Dhunki 5621",
-      "Fabric": "Premium Ajanta",
-      "Specialty": "Designer dress with attractive print",
-      "Colors": 3,
-      "Images": [
+      "sku": "Dhunki 5621",
+      "fabric": "Premium Ajanta",
+      "specialty": "Designer dress with attractive print",
+      "colors": 3,
+      "images": [
         {
           "color": "Peach",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748877283/Peach_A_k1jxzq.jpg"
           ]
         },
         {
           "color": "Blue",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748877283/Blue_A_gkrdip.jpg"
           ]
         },
         {
           "color": "White",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748877253/White_A_bfe028.jpg"
           ]
         }
       ],
-      "Price": "₹490×3=₹1470",
-      "Sizes": [
+      "price": "₹490×3=₹1470",
+      "sizes": [
         "S(34)",
         "M(36)",
         "L(38)",
         "XL(40)"
       ],
-      "Sleeve Type": "Sleeveless",
-      "Catalogue": "3 pcs",
-      "GST 5%": "Extra",
-      "Single Available": "No"
+      "sleeveType": "Sleeveless",
+      "catalogue": "3 pcs",
+      "gst5Percent": "Extra",
+      "singleAvailable": "No"
     },
     {
-      "SKU": "Dhunki 6061",
-      "Fabric": "Premium Ajanta",
-      "Specialty": "V neck designer western dress",
-      "Colors": 2,
-      "Images": [
+      "sku": "Dhunki 6061",
+      "fabric": "Premium Ajanta",
+      "specialty": "V neck designer western dress",
+      "colors": 2,
+      "images": [
         {
           "color": "Peach",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748877309/Peach_rdlxpt.jpg"
           ]
         },
         {
           "color": "Maroon",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748877308/Maroon_ptnocr.jpg"
           ]
         }
       ],
-      "Price": "₹359×4=₹1436",
-      "Sizes": [
+      "price": "₹359×4=₹1436",
+      "sizes": [
         "S(34)",
         "M(36)",
         "L(38)",
         "XL(40)"
       ],
-      "Sleeve Type": "Sleeveless",
-      "Catalogue": "4 pcs",
-      "GST 5%": "Extra",
-      "Single Available": "No"
+      "sleeveType": "Sleeveless",
+      "catalogue": "4 pcs",
+      "gst5Percent": "Extra",
+      "singleAvailable": "No"
     },
     {
-      "SKU": "Dhunki 6071",
-      "Fabric": "Premium Ajanta",
-      "Specialty": "Designer maxi gown",
-      "Colors": 2,
-      "Images": [
+      "sku": "Dhunki 6071",
+      "fabric": "Premium Ajanta",
+      "specialty": "Designer maxi gown",
+      "colors": 2,
+      "images": [
         {
           "color": "Peach",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880038/Peach_ivxl2f.jpg"
           ]
         },
         {
           "color": "Maroon",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880038/Maroon_ektyzl.jpg"
           ]
         }
       ],
-      "Price": "₹499×4=₹1996",
-      "Sizes": [
+      "price": "₹499×4=₹1996",
+      "sizes": [
         "S(34)",
         "M(36)",
         "L(38)",
         "XL(40)"
       ],
-      "Sleeve Type": "Full sleeve",
-      "Catalogue": "4 pcs",
-      "GST 5%": "Extra",
-      "Single Available": "No"
+      "sleeveType": "Full sleeve",
+      "catalogue": "4 pcs",
+      "gst5Percent": "Extra",
+      "singleAvailable": "No"
     },
     {
-      "SKU": "Dhunki 8031",
-      "Fabric": "Premium Ajanta",
-      "Specialty": "Round neck designer western dress with belt & frill",
-      "Colors": 4,
-      "Images": [
+      "sku": "Dhunki 8031",
+      "fabric": "Premium Ajanta",
+      "specialty": "Round neck designer western dress with belt & frill",
+      "colors": 4,
+      "images": [
         {
           "color": "Black",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880049/Black_xno6g8.jpg"
           ]
         },
         {
           "color": "Pista",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880048/Pista_wmf99b.jpg"
           ]
         },
         {
           "color": "Peach",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880045/Peach_hao999.jpg"
           ]
         },
         {
           "color": "Maroon",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880044/Maroon_sd96nd.jpg"
           ]
         }
       ],
-      "Price": "₹439×4=₹1756",
-      "Sizes": [
+      "price": "₹439×4=₹1756",
+      "sizes": [
         "S(34)",
         "M(36)",
         "L(38)",
         "XL(40)"
       ],
-      "Sleeve Type": "Full sleeve",
-      "Catalogue": "4 pcs",
-      "GST 5%": "Extra",
-      "Single Available": "No"
+      "sleeveType": "Full sleeve",
+      "catalogue": "4 pcs",
+      "gst5Percent": "Extra",
+      "singleAvailable": "No"
     },
     {
-      "SKU": "Dhunki 8061",
-      "Fabric": "Premium Ajanta",
-      "Specialty": "Diamond shape neck with pleated design",
-      "Colors": 4,
-      "Images": [
+      "sku": "Dhunki 8061",
+      "fabric": "Premium Ajanta",
+      "specialty": "Diamond shape neck with pleated design",
+      "colors": 4,
+      "images": [
         {
           "color": "Peach",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880151/Peach_j1fabu.jpg"
           ]
         },
         {
           "color": "Mahendi",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880149/Mahendi_z6fema.jpg"
           ]
         },
         {
           "color": "Blue",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880148/Blue_qeubt9.jpg"
           ]
         },
         {
           "color": "Pista",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880147/Pista_slugfe.jpg"
           ]
         }
       ],
-      "Price": "₹372×4=₹1488",
-      "Sizes": [
+      "price": "₹372×4=₹1488",
+      "sizes": [
         "S(34)",
         "M(36)",
         "L(38)",
         "XL(40)"
       ],
-      "Sleeve Type": "3/4 sleeve",
-      "Catalogue": "4 pcs",
-      "GST 5%": "Extra",
-      "Single Available": "No"
+      "sleeveType": "3/4 sleeve",
+      "catalogue": "4 pcs",
+      "gst5Percent": "Extra",
+      "singleAvailable": "No"
     },
     {
-      "SKU": "Dhunki 8111",
-      "Fabric": "Premium Georgette",
-      "Specialty": "Designer neck, sleeve, waist elastic with soft lining",
-      "Colors": 4,
-      "Images": [
+      "sku": "Dhunki 8111",
+      "fabric": "Premium Georgette",
+      "specialty": "Designer neck, sleeve, waist elastic with soft lining",
+      "colors": 4,
+      "images": [
         {
           "color": "Grey",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880196/Grey_x3ma5m.jpg"
           ]
         },
         {
           "color": "Maroon",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880195/Maroon_yzexmv.jpg"
           ]
         },
         {
           "color": "Morpich",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880193/Morpich_ckee4k.jpg"
           ]
         },
         {
           "color": "Black",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880193/Black_e1mce3.jpg"
           ]
         }
       ],
-      "Price": "₹480×4=₹1920",
-      "Sizes": [
+      "price": "₹480×4=₹1920",
+      "sizes": [
         "S(36)",
         "M(38)",
         "L(40)",
         "XL(42)"
       ],
-      "Sleeve Type": "Designer",
-      "Catalogue": "4 pcs",
-      "GST 5%": "Extra",
-      "Single Available": "No"
+      "sleeveType": "Designer",
+      "catalogue": "4 pcs",
+      "gst5Percent": "Extra",
+      "singleAvailable": "No"
     },
     {
-      "SKU": "Dhunki 8301",
-      "Fabric": "Premium Ruby slub",
-      "Specialty": "Designer neck, front, attractive sleeve with belt",
-      "Colors": 1,
-      "Images": [
+      "sku": "Dhunki 8301",
+      "fabric": "Premium Ruby slub",
+      "specialty": "Designer neck, front, attractive sleeve with belt",
+      "colors": 1,
+      "images": [
         {
           "color": "Green",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880215/Green_z1v7fi.jpg"
           ]
         }
       ],
-      "Price": "₹480×4=₹1920",
-      "Sizes": [
+      "price": "₹480×4=₹1920",
+      "sizes": [
         "S",
         "M",
         "L",
         "XL"
       ],
-      "Sleeve Type": "Designer cap",
-      "Catalogue": "4 pcs",
-      "GST 5%": "Extra",
-      "Single Available": "No"
+      "sleeveType": "Designer cap",
+      "catalogue": "4 pcs",
+      "gst5Percent": "Extra",
+      "singleAvailable": "No"
     },
     {
-      "SKU": "Dhunki 8321",
-      "Fabric": "Premium chiffon Georgette (Swiss dot)",
-      "Specialty": "Designer neck, sleeve, front with soft lining",
-      "Colors": 3,
-      "Images": [
+      "sku": "Dhunki 8321",
+      "fabric": "Premium chiffon Georgette (Swiss dot)",
+      "specialty": "Designer neck, sleeve, front with soft lining",
+      "colors": 3,
+      "images": [
         {
           "color": "Red",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880234/Red_usemal.jpg"
           ]
         },
         {
           "color": "Peach",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880232/Peach_qigvdf.jpg"
           ]
         },
         {
           "color": "Pista",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880225/Pista_w6sx2v.jpg"
           ]
         }
       ],
-      "Price": "₹560×3=₹1680",
-      "Sizes": [
+      "price": "₹560×3=₹1680",
+      "sizes": [
         "S(36)",
         "M(38)",
         "L(40)",
         "XL(42)"
       ],
-      "Sleeve Type": "Designer full",
-      "Catalogue": "3 pcs",
-      "GST 5%": "Extra",
-      "Single Available": "No"
+      "sleeveType": "Designer full",
+      "catalogue": "3 pcs",
+      "gst5Percent": "Extra",
+      "singleAvailable": "No"
     },
     {
-      "SKU": "Dhunki 8561",
-      "Fabric": "Premium Vista fabric",
-      "Specialty": "Designer front and sleeve",
-      "Colors": 4,
-      "Images": [
+      "sku": "Dhunki 8561",
+      "fabric": "Premium Vista fabric",
+      "specialty": "Designer front and sleeve",
+      "colors": 4,
+      "images": [
         {
           "color": "Sky",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880245/Sky_hxlwxt.jpg"
           ]
         },
         {
           "color": "Wine",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880244/Wine_iyx1jw.jpg"
           ]
         },
         {
           "color": "Dusty Pink",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880244/Dusty_Pink_nx1fgt.jpg"
           ]
         },
         {
           "color": "Pista",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880237/Pista_cnmxyt.jpg"
           ]
         }
       ],
-      "Price": "₹525×4=₹2100",
-      "Sizes": [
+      "price": "₹525×4=₹2100",
+      "sizes": [
         "XS(34)",
         "S(36)",
         "M(38)",
         "L(40)"
       ],
-      "Sleeve Type": "Designer full",
-      "Catalogue": "4 pcs",
-      "GST 5%": "Extra",
-      "Single Available": "No"
+      "sleeveType": "Designer full",
+      "catalogue": "4 pcs",
+      "gst5Percent": "Extra",
+      "singleAvailable": "No"
     },
     {
-      "SKU": "Dhunki 8771",
-      "Fabric": "Premium Georgette with soft lining",
-      "Specialty": "Exclusive designer western dress",
-      "Colors": 3,
-      "Images": [
+      "sku": "Dhunki 8771",
+      "fabric": "Premium Georgette with soft lining",
+      "specialty": "Exclusive designer western dress",
+      "colors": 3,
+      "images": [
         {
           "color": "Pink",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880276/Pink_qhm5id.jpg"
           ]
         },
         {
           "color": "Pista",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880275/Pista_r9y8w2.jpg"
           ]
         },
         {
           "color": "Morpich",
-          "image_urls": [
+          "imageUrls": [
             "https://res.cloudinary.com/drtnydjni/image/upload/v1748880273/Morpich_hxsiuj.jpg"
           ]
         }
       ],
-      "Price": "₹480×3=₹1440",
-      "Sizes": [
+      "price": "₹480×3=₹1440",
+      "sizes": [
         "S(36)",
         "M(38)",
         "L(40)",
         "XL(42)"
       ],
-      "Sleeve Type": "Designer full",
-      "Catalogue": "3 pcs",
-      "GST 5%": "Extra",
-      "Single Available": "No"
+      "sleeveType": "Designer full",
+      "catalogue": "3 pcs",
+      "gst5Percent": "Extra",
+      "singleAvailable": "No"
     }
   ]
 }
