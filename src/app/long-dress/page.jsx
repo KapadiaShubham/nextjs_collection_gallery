@@ -4,7 +4,7 @@ import allProducts from '../data/flattenedData.json';
 export default function LongDress() {
   return (
     <>
-      <ProductGallery title='Long Dress' products={allProducts['longDress']}/>
+      <ProductGallery title='Long Dress' products={allProducts}/>
     </>
   );
 }
