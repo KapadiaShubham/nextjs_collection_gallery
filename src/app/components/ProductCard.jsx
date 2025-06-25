@@ -17,14 +17,15 @@ import { CldImage } from "next-cloudinary";
 
 export default function ProductCard({ product }) {
   return (<>
-    <div className="group max-w-xs bg-white shadow-md overflow-hidden transition-shadow duration-300 hover:shadow-[0_0_15px_rgba(99,102,241,0.5)] cursor-pointer">
+    <div className="group max-w-xs bg-white shadow-md overflow-hidden transition-shadow duration-300 hover:outline-2 hover:outline-pink-500 cursor-pointer">
       <div className="w-full aspect-[70/104] overflow-hidden">
         <CldImage
           src={product.imageUrl}
           alt={`${product.sku} - ${product.color}`}
           width={200}
           height={400}
-          className="w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-103"
+          // className="w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-103"
+          className="w-full h-full object-cover"
         />
         {/* <Image
           src={product.image_urls[0]}
