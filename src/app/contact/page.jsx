@@ -4,7 +4,6 @@ import {
   Mail,
   Phone,
   MapPin,
-  // Linkedin,
   MessageSquareText,
 } from 'lucide-react';
 
@@ -24,89 +23,75 @@ const contactInfo = {
     address: 'shilpakapadia99@gmail.com',
     link: 'mailto:shilpakapadia99@gmail.com',
   },
-  // linkedin: {
-  //   label: 'LinkedIn',
-  //   username: 'linkedin.com/in/myprofile',
-  //   link: 'https://linkedin.com/in/myprofile',
-  // },
   location: 'Surat, Gujarat',
 };
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen bg-white px-4 py-16 sm:px-6 lg:px-8">
-      <div className="mx-auto max-w-2xl">
-        <h1 className="text-3xl font-bold text-gray-900 mb-6">Contact Information</h1>
-        <p className="text-gray-600 mb-10">
-          Feel free to reach out using any of the methods below.
+    <main className="min-h-screen px-4 pb-20 pt-40 sm:px-6 lg:px-8 bg-gradient-to-br from-pink-100 via-purple-100 to-blue-100">
+      <div className="max-w-2xl mx-auto bg-white/70 backdrop-blur-md rounded-2xl shadow-xl p-8 md:p-12">
+        <h1 className="text-4xl font-extrabold text-center text-gray-900 mb-4">
+          Get in Touch
+        </h1>
+        <p className="text-center text-gray-600 mb-10">
+          We'd love to hear from you. Reach out to us on any of the platforms below.
         </p>
 
-        <div className="space-y-6">
-          <div className="flex items-center space-x-4">
-            <MessageSquareText className="text-green-500 w-6 h-6" />
-            <div>
-              <p className="text-sm font-medium text-gray-700">{contactInfo.whatsapp.label}</p>
-              <a
-                href={contactInfo.whatsapp.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-900 font-semibold hover:underline"
-              >
-                {contactInfo.whatsapp.number}
-              </a>
-            </div>
-          </div>
-
-          <div className="flex items-center space-x-4">
-            <Phone className="text-blue-600 w-6 h-6" />
-            <div>
-              <p className="text-sm font-medium text-gray-700">{contactInfo.phone.label}</p>
-              <a
-                href={contactInfo.phone.link}
-                className="text-gray-900 font-semibold hover:underline"
-              >
-                {contactInfo.phone.number}
-              </a>
-            </div>
-          </div>
-
-          <div className="flex items-center space-x-4">
-            <Mail className="text-red-500 w-6 h-6" />
-            <div>
-              <p className="text-sm font-medium text-gray-700">{contactInfo.email.label}</p>
-              <a
-                href={contactInfo.email.link}
-                className="text-gray-900 font-semibold hover:underline"
-              >
-                {contactInfo.email.address}
-              </a>
-            </div>
-          </div>
-
-          {/* <div className="flex items-center space-x-4">
-            <Linkedin className="text-blue-700 w-6 h-6" />
-            <div>
-              <p className="text-sm font-medium text-gray-700">{contactInfo.linkedin.label}</p>
-              <a
-                href={contactInfo.linkedin.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-900 font-semibold hover:underline"
-              >
-                {contactInfo.linkedin.username}
-              </a>
-            </div>
-          </div> */}
-
-          <div className="flex items-center space-x-4">
-            <MapPin className="text-purple-500 w-6 h-6" />
-            <div>
-              <p className="text-sm font-medium text-gray-700">Location</p>
-              <p className="text-gray-900 font-semibold">{contactInfo.location}</p>
-            </div>
-          </div>
+        <div className="space-y-8 text-lg text-gray-800">
+          <ContactItem
+            Icon={MessageSquareText}
+            label={contactInfo.whatsapp.label}
+            value={contactInfo.whatsapp.number}
+            link={contactInfo.whatsapp.link}
+            color="text-green-500"
+          />
+          <ContactItem
+            Icon={Phone}
+            label={contactInfo.phone.label}
+            value={contactInfo.phone.number}
+            link={contactInfo.phone.link}
+            color="text-blue-600"
+          />
+          <ContactItem
+            Icon={Mail}
+            label={contactInfo.email.label}
+            value={contactInfo.email.address}
+            link={contactInfo.email.link}
+            color="text-red-500"
+          />
+          <ContactItem
+            Icon={MapPin}
+            label="Location"
+            value={contactInfo.location}
+            color="text-purple-600"
+          />
         </div>
       </div>
     </main>
+  );
+}
+
+function ContactItem({ Icon, label, value, link, color }) {
+  return (
+    <div className="flex items-start space-x-4 group">
+      <div className={`w-10 h-10 rounded-full flex items-center justify-center bg-white shadow-md ${color} group-hover:scale-110 transition-transform duration-300`}>
+        <Icon className="w-6 h-6" />
+      </div>
+      <div>
+        <p className="text-sm text-gray-600">{label}</p>
+        {link ? (
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-lg font-semibold text-gray-900 hover:text-pink-500 transition"
+          >
+            {value}
+          </a>
+        ) : (
+          <p className="text-lg font-semibold text-gray-900">{value}</p>
+        )}
+      </div>
+    </div>
   );
 }
