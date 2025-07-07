@@ -1,9 +1,7 @@
 // app/api/products/route.js
-import { connectDB } from "@/lib/db";
-import Product from "@/models/Product";
+import { getAllProducts } from '@/lib/getProducts';
 
 export async function GET() {
-  await connectDB();
-  const products = await Product.find().sort({ createdAt: -1 });
+  const products = await getAllProducts(); // reuse
   return Response.json(products);
 }
